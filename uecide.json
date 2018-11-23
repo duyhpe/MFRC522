@@ -1,0 +1,19 @@
+{
+    "name": "MFRC522",
+    "provides": "MFRC522.h",
+    "license": "UNLICENSE",
+    "readme": "README.rst",
+    "description": "Blink an output in different patterns",
+    "category": "IO",
+    "subcategory": "Digital",
+    "maintainer": "Matt Jenkins <matt@majenko.co.uk>",
+    "version": "1.0.0",
+    "family": "all",
+    "core": "all",
+    "install": {
+        "examples": "/",
+        "keywords.txt": "/",
+        "MFRC522.cpp": "/",
+        "MFRC522.h": "/"
+    }
+}
