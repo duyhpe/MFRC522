@@ -1430,7 +1430,7 @@ void MFRC522::PICC_DumpMifareClassicSectorToSerial(Uid *uid,			///< Pointer to U
 	// The four CX bits are stored together in a nible cx and an inverted nible cx_.
 	byte c1, c2, c3;		// Nibbles
 	byte c1_, c2_, c3_;		// Inverted nibbles
-	bool invertedError;		// True if one of the inverted nibbles did not match
+	bool invertedError=0;		// True if one of the inverted nibbles did not match
 	byte g[4];				// Access bits for each of the four groups.
 	byte group;				// 0-3 - active group for access bits
 	bool firstInGroup;		// True for the first block dumped in the group
